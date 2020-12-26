@@ -1,0 +1,32 @@
+<html>
+<body>
+<form>
+
+  <label for="name">Name of the Student:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="reg.no">Registration Number:</label><br>
+  <input type="text" id="reg.no" name="reg.no"><br><br>
+  <label for="Email ID">Email ID:</label><br>
+  <input type="text" id="Email ID" name="Email ID"><br><br>
+  <input type="checkbox" id="Sport1" name="Sport1" value="Cricket">
+  <label for="Sport1"> Cricket</label>
+  <input type="checkbox" id="Sport2" name="Sport2" value="Football">
+  <label for="Sport2"> Football</label>
+  <input type="checkbox" id="Sport3" name="Sport3" value="Chess">
+  <label for="Sport3"> Chess</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input list="favourite subjects" name="favourite subjects">
+  <datalist id="favourite subjects">
+    <option value="JAVA">
+    <option value="C">
+    <option value="C++">
+    <option value="Python">
+  </datalist>
+  <input type="submit">
+  <input type="submit" value="Submit">
+</form>
+<html>
+<body>
